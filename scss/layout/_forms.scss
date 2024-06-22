@@ -1,0 +1,12 @@
+section form label{
+    margin: 10px;
+}
+form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+textarea{
+   resize: none;
+   margin: 10px 0;
+}

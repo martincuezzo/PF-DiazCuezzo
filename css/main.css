@@ -1,1 +1,139 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+main section button a {
+  color: white;
+}
+
+.container-center {
+  width: 100%;
+  max-width: 1152px;
+}
+
+header {
+  min-height: 200px;
+  background-color: #000000;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 90px;
+  align-items: center;
+}
+header div img {
+  width: auto;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.nav_item {
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  padding: 0 5px;
+  border-radius: 7px;
+}
+.nav_item:hover {
+  background-color: #5B9850;
+  color: white;
+}
+
+@media (min-width: 660px) {
+  .menu_nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .nav_item {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+    border-radius: 7px;
+  }
+}
+main {
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  background-color: #5B9850;
+  padding: 10px 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* div de page contacto*/
+.main__img {
+  margin: 30px 0;
+}
+
+section form label {
+  margin: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+textarea {
+  resize: none;
+  margin: 10px 0;
+}
+
+.publicidad {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 400px;
+  background-color: #E9C039;
+}
+.publicidad aside {
+  width: 350px;
+}
+
+footer {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  height: 90px;
+  background-color: #277274;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div p {
+  margin-bottom: 0;
+}
+footer div img {
+  width: auto;
+}/*# sourceMappingURL=main.css.map */
