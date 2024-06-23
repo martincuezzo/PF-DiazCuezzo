@@ -12,7 +12,7 @@ li{
     color: $color-text-secundary;
     text-decoration: none;
     padding: 0 5px;
-    border-radius: 7px;
+    border-radius: $img-border-radius;
     &:hover {
     background-color: $color-primary;
     color: $color-text-secundary;
@@ -34,7 +34,7 @@ li{
             color:$color-text-secundary;
             text-decoration: none;
             padding: 0 5px;
-            border-radius: 7px;
+            border-radius: $img-border-radius;
         }
         
  }

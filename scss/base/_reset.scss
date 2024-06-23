@@ -3,3 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+img{
+    object-fit: fill;
+    border-radius: $img-border-radius;
+    width: 100%;
+}

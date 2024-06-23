@@ -3,8 +3,11 @@
     justify-content:center;
     display: flex;
     min-height: 400px;
-    background-color:$color-secundary;
+    background:$color-secundary;
     aside{
     width: 350px;
-}
+    &:hover{
+        transform: scale(1.1) ;
+    }
+    }
 }
