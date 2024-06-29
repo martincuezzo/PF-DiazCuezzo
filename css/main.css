@@ -123,14 +123,9 @@ textarea {
   background: #E9C039;
 }
 .publicidad aside:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
-@media (min-width: 1320px) {
-  aside:hover {
-    transform: none;
-  }
-}
 @media (max-width: 660px) {
   .container-center {
     gap: 20px;
