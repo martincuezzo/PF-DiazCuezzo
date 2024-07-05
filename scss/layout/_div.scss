@@ -1,0 +1,9 @@
+.aside_top{
+    height: 32px;
+    background: $color-tertiary;
+    color:$color-text-secundary;
+    & div div p{
+        text-align: center;
+    }
+       
+}

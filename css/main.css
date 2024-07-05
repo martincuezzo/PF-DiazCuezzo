@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Roboto-Regular;
 }
 
 img {
@@ -235,4 +236,12 @@ footer div img {
   .tour_main_div {
     max-width: 330px;
   }
+}
+.aside_top {
+  height: 32px;
+  background: #277274;
+  color: white;
+}
+.aside_top div div p {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
