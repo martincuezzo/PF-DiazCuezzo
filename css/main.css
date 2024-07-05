@@ -117,7 +117,7 @@ section {
 }
 .carrusel img:hover {
   cursor: crosshair;
-  width: 300px;
+  width: 200px;
   opacity: 1;
   filter: contrast(120%);
 }
