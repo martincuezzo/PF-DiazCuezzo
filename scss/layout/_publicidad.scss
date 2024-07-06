@@ -5,12 +5,12 @@
     min-height: 400px;
     background:$color-secundary;
     aside{
+        filter:drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.674));
     &:hover{
         transform: scale(1.02) ;
     }
     }
 }
-
 @media (max-width:660px) {
     .container-center{
         gap: 20px;

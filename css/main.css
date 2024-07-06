@@ -102,12 +102,14 @@ section {
 /* div de page contacto*/
 .main__img {
   margin: 30px 0;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.674));
 }
 
 .carrusel {
   display: flex;
   max-width: 700px;
   height: 430px;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.674));
 }
 
 .carrusel img {
@@ -146,6 +148,9 @@ textarea {
   display: flex;
   min-height: 400px;
   background: #E9C039;
+}
+.publicidad aside {
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.674));
 }
 .publicidad aside:hover {
   transform: scale(1.02);
@@ -232,6 +237,7 @@ footer div img {
 }
 .tour_main_div {
   margin: 15px;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.674));
 }
 
 .scale-in-hor-right {
@@ -270,7 +276,7 @@ footer div img {
 .section__fotos div {
   width: 200px;
   margin: 15px;
-  box-shadow: 3px 3px 3px 3px rgba(32, 32, 32, 0.3);
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.674));
 }
 .section__fotos div:hover {
   transform: scale(1.02);
@@ -289,6 +295,7 @@ footer div img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.674));
 }
 
 @media (min-width: 714px) {
