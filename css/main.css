@@ -280,7 +280,7 @@ footer div img {
   .ocultar {
     display: none;
   }
-  article.section__fotos {
+  div.section__fotos {
     max-width: 896px;
   }
 }

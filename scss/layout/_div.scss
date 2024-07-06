@@ -9,12 +9,12 @@
     }
     & div div p{
         margin-bottom: unset;
-        font-size: 12px;
+        font-size: $font-size-primary;
     }
 }
     @media (min-width:660px){
     .aside_top div div p{
-        font-size: 17px;
+        font-size: $font-size-secundary;
 
         
     }   

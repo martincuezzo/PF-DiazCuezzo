@@ -8,7 +8,7 @@ li{
     list-style: none;
 }
 .nav_item{
-    font-size: 12px;
+    font-size: $font-size-primary;
     color: $color-text-secundary;
     text-decoration: none;
     padding: 0 5px;
@@ -36,7 +36,7 @@ li{
 
         .nav_item{
     
-            font-size: 17px;
+            font-size: $font-size-secundary;
             color:$color-text-secundary;
             text-decoration: none;
             padding: 0 5px;
