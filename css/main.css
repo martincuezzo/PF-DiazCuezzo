@@ -164,7 +164,7 @@ footer {
   align-content: center;
   align-items: center;
   display: flex;
-  min-height: 200px;
+  min-height: 160px;
   background: #277274;
 }
 footer div {
