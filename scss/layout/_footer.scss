@@ -46,15 +46,11 @@ footer{
     & div{
         border-left:none;
         gap: 2px 10px;
-
     }    
     }
-
-
     @media (max-width:660px)
  {
     footer{
-        gap: 25px;
         flex-direction: column-reverse;
     & div{
         padding: 20px;
