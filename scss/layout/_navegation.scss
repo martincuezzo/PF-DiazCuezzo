@@ -1,14 +1,14 @@
 ul{
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
-   }
+       }
 li{
     list-style: none;
 }
 .nav_item{
-    font-size: 17px;
+    font-size: 12px;
     color: $color-text-secundary;
     text-decoration: none;
     padding: 0 5px;
@@ -18,14 +18,20 @@ li{
     color: $color-text-secundary;
 }
 }
+
+.menu_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
 @media (min-width:660px)
  {
 
     .menu_nav{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-end;
+        gap: 35px;
         }
 
         .nav_item{

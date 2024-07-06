@@ -1,9 +1,21 @@
 .aside_top{
-    height: 32px;
+    height: 45px;
     background: $color-primary;
     color:$color-text-secundary;
-    & div div p{
+    & div{
+        
+        align-content: center;
         text-align: center;
     }
-       
+    & div div p{
+        margin-bottom: unset;
+        font-size: 12px;
+    }
+}
+    @media (min-width:660px){
+    .aside_top div div p{
+        font-size: 17px;
+
+        
+    }   
 }

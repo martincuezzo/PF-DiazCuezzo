@@ -26,15 +26,15 @@ main section button a {
 }
 
 header {
-  min-height: 200px;
+  min-height: 100px;
   background: #000000;
   align-content: center;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 header div {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   padding-left: 90px;
   align-items: center;
@@ -45,7 +45,6 @@ header div img {
 
 ul {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -55,7 +54,7 @@ li {
 }
 
 .nav_item {
-  font-size: 17px;
+  font-size: 12px;
   color: white;
   text-decoration: none;
   padding: 0 5px;
@@ -66,12 +65,17 @@ li {
   color: white;
 }
 
+.menu_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
 @media (min-width: 660px) {
   .menu_nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    gap: 35px;
   }
   .nav_item {
     font-size: 17px;
@@ -238,10 +242,21 @@ footer div img {
   }
 }
 .aside_top {
-  height: 32px;
+  height: 45px;
   background: #5B9850;
   color: white;
 }
-.aside_top div div p {
+.aside_top div {
+  align-content: center;
   text-align: center;
+}
+.aside_top div div p {
+  margin-bottom: unset;
+  font-size: 12px;
+}
+
+@media (min-width: 660px) {
+  .aside_top div div p {
+    font-size: 17px;
+  }
 }/*# sourceMappingURL=main.css.map */
