@@ -2,7 +2,7 @@ footer{
     align-content: center;
     align-items: center;
     display: flex;
-    height: 200px;
+    min-height: 200px;
     background:$color-tertiary;
     div{
         height: 85px;
@@ -49,3 +49,24 @@ footer{
 
     }    
     }
+
+
+    @media (max-width:660px)
+ {
+    footer{
+        gap: 25px;
+        flex-direction: column-reverse;
+    & div{
+        padding: 20px;
+        border-left: unset;
+        border-top: 1px solid #ffffff;
+    }
+    }
+    .redes{
+        flex-direction:row;
+    }
+    .redes div{
+        border-top:none;
+    } 
+
+ }

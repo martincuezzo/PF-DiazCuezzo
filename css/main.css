@@ -164,7 +164,7 @@ footer {
   align-content: center;
   align-items: center;
   display: flex;
-  height: 200px;
+  min-height: 200px;
   background: #277274;
 }
 footer div {
@@ -213,6 +213,23 @@ footer div img {
   gap: 2px 10px;
 }
 
+@media (max-width: 660px) {
+  footer {
+    gap: 25px;
+    flex-direction: column-reverse;
+  }
+  footer div {
+    padding: 20px;
+    border-left: unset;
+    border-top: 1px solid #ffffff;
+  }
+  .redes {
+    flex-direction: row;
+  }
+  .redes div {
+    border-top: none;
+  }
+}
 .tour_main_div {
   margin: 15px;
 }
