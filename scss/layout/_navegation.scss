@@ -14,8 +14,8 @@ li{
     padding: 0 5px;
     border-radius: $img-border-radius;
     &:hover {
-    background-color: $color-primary;
-    color: $color-text-secundary;
+    // background-color: $color-primary;
+    color: $color-primary;
 }
 }
 
@@ -31,7 +31,7 @@ li{
  {
 
     .menu_nav{
-        gap: 35px;
+        gap: 20px;
         }
 
         .nav_item{
