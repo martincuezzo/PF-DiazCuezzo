@@ -148,7 +148,7 @@ textarea {
   background: #E9C039;
 }
 .publicidad aside:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 @media (max-width: 660px) {
@@ -258,7 +258,7 @@ footer div img {
   box-shadow: 3px 3px 3px 3px rgba(32, 32, 32, 0.3);
 }
 .section__fotos div:hover {
-  transform: scale(1.2);
+  transform: scale(1.02);
 }
 
 @media (min-width: 714px) {
