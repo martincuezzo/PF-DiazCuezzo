@@ -6,7 +6,6 @@ footer{
     background:$color-tertiary;
     div{
         height: 85px;
-        border-left: 1px solid #ffffff;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -18,6 +17,13 @@ footer{
             height: 70px;
         }
         }
+    }
+    .copyright{
+        border-right:1px solid #fefefe;
+    }
+    .redes{
+        border-right:1px solid #fefefe;
+
     }
     .redes_boton{
         border: 1px solid #fefefe;
@@ -44,7 +50,6 @@ footer{
     .redes{
         flex-direction: column;
     & div{
-        border-left:none;
         gap: 2px 10px;
     }    
     }
@@ -54,7 +59,6 @@ footer{
         flex-direction: column-reverse;
     & div{
         padding: 20px;
-        border-left: unset;
         border-top: 1px solid #ffffff;
     }
     }
