@@ -1,6 +1,5 @@
 main{
-    align-items: center;
-    justify-content: center;
+    @include flex(flex,center,center);
     min-height: 600px;
     background: $color-primary;
     padding: 10px 0px 0px 0px;
@@ -24,9 +23,7 @@ section{
     height: 430px;
     filter:drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.674));
 }
-
-.carrusel img{
-    
+.carrusel img{   
     width: 0px;
     flex-grow: 1;
     object-fit: cover;

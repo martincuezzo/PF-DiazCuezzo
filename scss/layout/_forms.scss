@@ -2,9 +2,8 @@ section form label{
     margin: 10px;
 }
 form {
-   display: flex;
    flex-direction: column;
-   justify-content: center;
+   @include flex(flex,center,stretch);
 }
 textarea{
    resize: none;

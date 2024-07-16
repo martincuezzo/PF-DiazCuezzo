@@ -1,9 +1,3 @@
-ul{
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-       }
 li{
     list-style: none;
 }
@@ -18,29 +12,19 @@ li{
     color: $color-primary;
 }
 }
-
 .menu_nav{
-    display: flex;
+    @include flex(flex,center,center);
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-
 }
-@media (min-width:660px)
- {
-
+@media (min-width:660px){
     .menu_nav{
         gap: 20px;
-        }
-
-        .nav_item{
-    
-            font-size: $font-size-secundary;
-            color:$color-text-secundary;
-            text-decoration: none;
-            padding: 0 5px;
-            border-radius: $img-border-radius;
-        }
-        
- }
+    }
+    .nav_item{
+        font-size: $font-size-secundary;
+        color:$color-text-secundary;
+        text-decoration: none;
+        padding: 0 5px;
+        border-radius: $img-border-radius;
+    } 
+}

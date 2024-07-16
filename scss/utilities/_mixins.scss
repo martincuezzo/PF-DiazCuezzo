@@ -1,0 +1,5 @@
+@mixin flex($display,$jut,$aling){
+  display: $display;
+  justify-content: $jut;
+  align-items: $aling;
+}

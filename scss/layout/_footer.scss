@@ -6,9 +6,7 @@ footer{
     background:$color-tertiary;
     div{
         height: 85px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex(flex,center,center);
         p{
             margin-bottom: 0;
             color:white;

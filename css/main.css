@@ -28,25 +28,19 @@ main section button a {
 header {
   min-height: 100px;
   background: #000000;
-  align-content: center;
-  flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 header div {
   display: flex;
   justify-content: center;
-  padding-left: 90px;
   align-items: center;
+  padding-left: 90px;
 }
 header div img {
   width: auto;
-}
-
-ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 li {
@@ -66,10 +60,9 @@ li {
 
 .menu_nav {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  align-content: center;
+  flex-direction: row;
 }
 
 @media (min-width: 660px) {
@@ -85,8 +78,9 @@ li {
   }
 }
 main {
-  align-items: center;
+  display: flex;
   justify-content: center;
+  align-items: center;
   min-height: 600px;
   background: #5B9850;
   padding: 10px 0px 0px 0px;
@@ -132,9 +126,10 @@ section form label {
 }
 
 form {
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
+  align-items: stretch;
 }
 
 textarea {
@@ -143,9 +138,9 @@ textarea {
 }
 
 .publicidad {
-  align-items: center;
-  justify-content: center;
   display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 400px;
   background: #E9C039;
 }

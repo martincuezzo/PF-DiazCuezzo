@@ -1,15 +1,11 @@
 header{
 min-height: 100px;
 background: #000000;
-align-content: center;
+@include flex(flex,center,center);
 flex-direction: column;
-justify-content: center;
-align-items: center;
     div{
-        display: flex;
-        justify-content: center;
+        @include flex(flex,center,center);
         padding-left: 90px;
-        align-items: center;
         
     img{
             width: auto;

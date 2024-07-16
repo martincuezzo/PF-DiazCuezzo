@@ -1,7 +1,5 @@
 .publicidad{
-    align-items: center;
-    justify-content:center;
-    display: flex;
+    @include flex(flex,center,center);
     min-height: 400px;
     background:$color-secundary;
     aside{
