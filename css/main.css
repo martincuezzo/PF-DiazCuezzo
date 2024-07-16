@@ -89,7 +89,7 @@ main {
   justify-content: center;
   min-height: 600px;
   background: #5B9850;
-  padding: 10px 0;
+  padding: 10px 0px 0px 0px;
 }
 
 section {
@@ -157,6 +157,9 @@ textarea {
 }
 
 @media (max-width: 660px) {
+  .publicidad {
+    order: -1;
+  }
   .container-center {
     gap: 20px;
     display: flex;
@@ -263,6 +266,11 @@ footer div img {
   flex-direction: row;
 }
 
+@media (max-width: 660px) {
+  .main_discografia {
+    flex-direction: column-reverse;
+  }
+}
 .main__div {
   display: flex;
   flex-direction: column;
@@ -306,6 +314,11 @@ footer div img {
   .section__video iframe {
     height: 400px;
     width: 600px;
+  }
+}
+@media (max-width: 660px) {
+  .orden {
+    order: initial;
   }
 }
 @media (max-width: 800px) {

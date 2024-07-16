@@ -12,6 +12,9 @@
     }
 }
 @media (max-width:660px) {
+    .publicidad{
+        order: -1;
+    }
     .container-center{
         gap: 20px;
         display: flex;

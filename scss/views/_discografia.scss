@@ -1,6 +1,11 @@
 .main_discografia{
     flex-direction: row; 
 }
+@media (max-width:660px) {
+    .main_discografia{
+        flex-direction: column-reverse;
+    }
+}
 .main__div{
     display: flex;
     flex-direction: column;
