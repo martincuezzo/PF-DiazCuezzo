@@ -163,6 +163,14 @@ textarea {
     padding: 15px;
   }
 }
+@media (max-width: 800px) {
+  .publicidad {
+    order: -1;
+  }
+  .orden {
+    order: initial;
+  }
+}
 footer {
   align-content: center;
   align-items: center;
@@ -310,9 +318,6 @@ section button {
 }
 
 @media (min-width: 714px) {
-  .orden {
-    order: initial;
-  }
   .section__video iframe {
     height: 400px;
     width: 600px;

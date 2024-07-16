@@ -21,3 +21,11 @@
         padding: 15px;
     }
 }
+@media(max-width:800px){
+    .publicidad{
+        order: -1;
+    }
+    .orden{
+        order: initial;
+    }
+}
