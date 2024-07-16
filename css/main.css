@@ -310,6 +310,9 @@ section button {
 }
 
 @media (min-width: 714px) {
+  .orden {
+    order: initial;
+  }
   .section__video iframe {
     height: 400px;
     width: 600px;
