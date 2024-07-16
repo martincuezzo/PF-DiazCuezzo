@@ -275,7 +275,7 @@ section button {
 
 @media (max-width: 660px) {
   .main_discografia {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 .main__div {
